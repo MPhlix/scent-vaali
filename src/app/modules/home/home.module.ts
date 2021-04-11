@@ -15,13 +15,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { DealsComponent } from './components/deals/deals.component';
+import { PromotionsComponent } from './components/promotions/promotions.component';
+import { HighlightsComponent } from './components/highlights/highlights.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 ];
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent],
+  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent, PromotionsComponent, HighlightsComponent],
   imports: [
     CommonModule,
     MatCardModule,
