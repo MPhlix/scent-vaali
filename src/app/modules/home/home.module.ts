@@ -13,13 +13,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { SvgModule } from '../shared/svg/svg.module';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 ];
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent],
+  declarations: [HomeComponent, AboutComponent, BannerComponent],
   imports: [
     CommonModule,
     MatCardModule,

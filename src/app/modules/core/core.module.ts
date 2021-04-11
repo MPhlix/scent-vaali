@@ -16,7 +16,6 @@ import { HeaderComponent } from './components/header/header.component';
     FooterComponent,
     SearchComponent,
     TabNavbarComponent,
-    HeaderComponent,
     HeaderComponent
   ],
   imports: [
