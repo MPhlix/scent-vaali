@@ -17,13 +17,16 @@ import { BannerComponent } from './components/banner/banner.component';
 import { DealsComponent } from './components/deals/deals.component';
 import { PromotionsComponent } from './components/promotions/promotions.component';
 import { HighlightsComponent } from './components/highlights/highlights.component';
+import { ServicesMiniComponent } from './components/services-mini/services-mini.component';
+import { NewsComponent } from './components/news/news.component';
+import { SocialMediaFeedComponent } from './components/social-media-feed/social-media-feed.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 ];
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent, PromotionsComponent, HighlightsComponent],
+  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent, PromotionsComponent, HighlightsComponent, ServicesMiniComponent, NewsComponent, SocialMediaFeedComponent],
   imports: [
     CommonModule,
     MatCardModule,
