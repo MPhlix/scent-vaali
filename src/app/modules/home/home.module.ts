@@ -14,13 +14,14 @@ import { SvgModule } from '../shared/svg/svg.module';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { DealsComponent } from './components/deals/deals.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 ];
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, BannerComponent],
+  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent],
   imports: [
     CommonModule,
     MatCardModule,
