@@ -57,4 +57,8 @@ export class CategoriesService implements EntityRepopulation {
 
         return higherOrderParentCategoryNames;
     }
+
+    getAll(): Category[] {
+        return this.categories;
+    }
 }

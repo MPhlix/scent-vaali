@@ -281,13 +281,10 @@
                     </div>
                     <div class="block-content verticalmenu-content">
                         <ul class="stelina-nav-vertical vertical-menu stelina-clone-mobile-menu">
-                            <li class="menu-item">
-                                <a href="#" class="stelina-menu-item-title" title="New Arrivals">New Arrivals</a>
+                            <li *ngFor="let categoryRoute of categoryRoutes" class="menu-item">
+                                <a [routerLink]="[categoryRoute.RouteName]" routerLinkActive="router-link-active"  class="stelina-menu-item-title" [title]="categoryRoute.DisplayName">{{categoryRoute.DisplayName}}</a>
                             </li>
-                            <li class="menu-item">
-                                <a title="Hot Sale" href="#" class="stelina-menu-item-title">Hot Sale</a>
-                            </li>
-                            <li class="menu-item menu-item-has-children">
+                            <!-- <li class="menu-item menu-item-has-children">
                                 <a title="Accessories" href="#" class="stelina-menu-item-title">Accessories</a>
                                 <span class="toggle-submenu"></span>
                                 <ul role="menu" class=" submenu">
@@ -307,62 +304,19 @@
                                         <a title="Bedroom" href="#" class="stelina-item-title">Bedroom</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a title="Accents" href="#" class="stelina-menu-item-title">Accents</a>
-                            </li>
-                            <li class="menu-item">
-                                <a title="Tables" href="#" class="stelina-menu-item-title">Tables</a>
-                            </li>
-                            <li class="menu-item">
-                                <a title="Dining" href="#" class="stelina-menu-item-title">Dining</a>
-                            </li>
-                            <li class="menu-item">
-                                <a title="Lighting" href="#" class="stelina-menu-item-title">Lighting</a>
-                            </li>
-                            <li class="menu-item">
-                                <a title="Office" href="#" class="stelina-menu-item-title">Office</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
                 <div class="header-nav">
                     <div class="container-wapper">
                         <ul class="stelina-clone-mobile-menu stelina-nav main-menu " id="menu-main-menu">
-                            <li class="menu-item  menu-item-has-children">
-                                <a href="index-2.html" class="stelina-menu-item-title" title="Home">Home</a>
-                                <span class="toggle-submenu"></span>
-                                <ul class="submenu">
-                                    <li class="menu-item">
-                                        <a href="index-2.html">Home 01</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="home2.html">Home 02</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="home3.html">Home 03</a>
-                                    </li>
-                                </ul>
+                            <li *ngFor="let navigationRoute of navigationRoutes" class="menu-item">
+                                <a [routerLink]="[navigationRoute.RouteName]" routerLinkActive="router-link-active"
+                                    class="stelina-menu-item-title"
+                                    [title]="navigationRoute.DisplayName">{{navigationRoute.DisplayName}}</a>
                             </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="gridproducts.html" class="stelina-menu-item-title" title="Shop">Shop</a>
-                                <span class="toggle-submenu"></span>
-                                <ul class="submenu">
-                                    <li class="menu-item">
-                                        <a href="gridproducts.html">Grid Fullwidth</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="gridproducts_leftsidebar.html">Grid Left sidebar</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="gridproducts_bannerslider.html">Grid Bannerslider</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="listproducts.html">List</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item  menu-item-has-children item-megamenu">
+                            <!-- <li class="menu-item  menu-item-has-children item-megamenu">
                                 <a href="#" class="stelina-menu-item-title" title="Pages">Pages</a>
                                 <span class="toggle-submenu"></span>
                                 <div class="submenu mega-menu menu-page">
@@ -413,8 +367,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="menu-item  menu-item-has-children">
+                            </li> -->
+                            <!-- <li class="menu-item  menu-item-has-children">
                                 <a href="inblog_right-siderbar.html" class="stelina-menu-item-title"
                                     title="Blogs">Blogs</a>
                                 <span class="toggle-submenu"></span>
@@ -447,10 +401,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
-                            <li class="menu-item">
-                                <a href="about.html" class="stelina-menu-item-title" title="About">About</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
