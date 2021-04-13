@@ -1,5 +1,6 @@
 <header class="header style7">
-    <div class="top-bar">
+    <!--Additional bar at the top for conditional usage in future-->
+    <div *ngIf="topMostBarConfig.visible" class="top-bar">
         <div class="container">
             <div class="top-bar-left">
                 <div class="header-message">
@@ -7,34 +8,9 @@
                 </div>
             </div>
             <div class="top-bar-right">
-                <div class="header-language">
-                    <div class="stelina-language stelina-dropdown">
-                        <a href="#" class="active language-toggle" data-stelina="stelina-dropdown">
-                            <span>
-                                English (USD)
-                            </span>
-                        </a>
-                        <ul class="stelina-submenu">
-                            <li class="switcher-option">
-                                <a href="#">
-                                    <span>
-                                        French (EUR)
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="switcher-option">
-                                <a href="#">
-                                    <span>
-                                        Japanese (JPY)
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
                 <ul class="header-user-links">
                     <li>
-                        <a href="login.html">Login or Register</a>
+                        <a href="login.html">Hide this bar</a>
                     </li>
                 </ul>
             </div>
@@ -50,7 +26,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-7 col-sm-8 col-md-6 col-xs-5 col-ts-12">
+                <div class="col-lg-6 col-sm-8 col-md-6 col-xs-5 col-ts-12">
                     <div class="block-search-block">
                         <form class="form-search form-search-width-category">
                             <div class="form-content">
@@ -75,8 +51,36 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-12 col-md-3 col-xs-12 col-ts-12">
+                <div class="col-lg-3 col-sm-12 col-md-3 col-xs-12 col-ts-12">
                     <div class="header-control">
+                        <div class="block-minicart stelina-mini-cart block-header stelina-dropdown">
+                            <div class="header-language">
+                                <div class="stelina-language stelina-dropdown">
+                                    <a href="#" class="active language-toggle" data-stelina="stelina-dropdown">
+                                        <span>
+                                            English (USD)
+                                        </span>
+                                    </a>
+
+                                    <ul class="stelina-submenu">
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <span>
+                                                    French (EUR)
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="switcher-option">
+                                            <a href="#">
+                                                <span>
+                                                    Japanese (JPY)
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         <div class="block-minicart stelina-mini-cart block-header stelina-dropdown">
                             <a href="javascript:void(0);" class="shopcart-icon" data-stelina="stelina-dropdown">
                                 Cart

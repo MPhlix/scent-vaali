@@ -37,7 +37,7 @@ REPONSIVE
 ============================================================================ */
 body {
 	font-family: 'Jost', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 26px;
 	color: #666;
 	overflow-x: hidden;
@@ -90,7 +90,7 @@ h5 {
 	font-size: 18px;
 }
 h6 {
-	font-size: 16px;
+	
 }
 p {
 	margin-bottom: 20px;
@@ -100,7 +100,7 @@ blockquote, q {
 	display: inline-block;
 	border-left: none;
 	color: #333;
-	font-size: 16px;
+	
 	line-height: 26px;
 	border-bottom: 1px solid #f2f2f2;
 	border-top: 1px solid #f2f2f2;
@@ -1426,12 +1426,12 @@ table tr:last-child td, table tr:last-child th {
 	padding-left: 0;
 }
 .header-language .stelina-language {
-	padding-top: 10px;
+	/* padding-top: 10px;
 	margin-left: 100px;
-	position: relative;
+	position: relative; */
 }
 .stelina-language .language-toggle {
-	color: #fff;
+	color: #888;
 }
 .stelina-submenu {
 	position: absolute;
@@ -1560,12 +1560,12 @@ table tr:last-child td, table tr:last-child th {
 	text-transform: uppercase;
 }
 .mini_cart_item .product-price {
-	font-size: 16px;
+	
 	color: #111111;
 }
 .mini_cart_item .product-quantity {
 	color: #888881;
-	font-size: 16px;
+	
 }
 .mini_cart_item .product-remove {
 	display: inline-block;
@@ -1724,7 +1724,7 @@ table tr:last-child td, table tr:last-child th {
 	display: inline-block;
 	list-style: none;
 	padding-right: 15px;
-	font-size: 16px;
+	
 	font-weight: 600;
 	color: #aaaaaa;
 	text-transform: capitalize;
@@ -1910,7 +1910,7 @@ table tr:last-child td, table tr:last-child th {
 	visibility: visible;
 }
 .stelina-demolink .title {
-	font-size: 16px;
+	
 	color: #0a0a0a;
 	font-weight: 600;
 	margin-bottom: 0;
@@ -2252,7 +2252,7 @@ blockquote .author .desc {
 	margin-bottom: 15px;
 }
 .tags .widgettitle {
-	font-size: 16px;
+	
 	color: #666;
 	display: inline-block;
 	padding-right: 10px;
@@ -2305,13 +2305,13 @@ blockquote .author .desc {
 }
 .share .title {
 	display: inline-block;
-	font-size: 16px;
+	
 	color: #666;
 	padding-right: 5px;
 	margin: 0;
 }
 .share .icon {
-	font-size: 16px;
+	
 	padding: 0 10px;
 	color: #222;
 	cursor: pointer;
@@ -2820,7 +2820,7 @@ blockquote .author .desc {
 	margin-bottom: 5px;
 }
 .kt-popup-newsletter .sub-title {
-	font-size: 16px;
+	
 	color: #555555;
 	font-weight: 600;
 	margin-bottom: 50px;
@@ -2953,7 +2953,7 @@ blockquote .author .desc {
 	display: inline-block;
 }
 .kt-popup-newsletter.style-3 .sub-title {
-	font-size: 16px;
+	
 	color: #888888;
 	text-align: left;
 	margin-bottom: 7px;
@@ -2990,7 +2990,7 @@ blockquote .author .desc {
 	margin-top: 6px;
 }
 .kt-popup-newsletter.style-3 .newsletter-slider .sub-title {
-	font-size: 16px;
+	
 	color: #888888;
 	text-align: center;
 	margin-bottom: 45px;
@@ -3147,7 +3147,7 @@ blockquote .author .desc {
 	text-align: center;
 	line-height: 36px;
 	color: #555;
-	font-size: 16px;
+	
 	border-radius: 0;
 }
 .header-device-mobile .mobile-navigation {
@@ -3588,7 +3588,7 @@ blockquote .author .desc {
 	line-height: 39px;
 	text-align: center;
 	border: 1px solid #F1F1F1;
-	font-size: 16px;
+	
 	color: #888;
 	font-weight: 500;
 	margin-left: 5px;
@@ -4335,7 +4335,7 @@ ul.list-products {
 	margin-bottom: 5px;
 }
 .product-item.style2 .desc {
-	font-size: 16px;
+	
 	color: #555555;
 	margin-bottom: 15px;
 }
@@ -4507,7 +4507,7 @@ ul.list-products {
 	border: none;
 	padding: 7px 0;
 	text-align: center;
-	font-size: 16px;
+	
 	color: #333333;
 	font-weight: 500;
 	width: 40px;
@@ -4666,7 +4666,7 @@ ul.list-products {
 	background-color: #ffffff;
 }
 .form-message .title {
-	font-size: 16px;
+	
 	font-weight: 500;
 	color: #0a0a0a;
 	text-align: left;
@@ -4707,7 +4707,7 @@ ul.list-products {
 	background-color: #111111;
 }
 .stelina-contact-info .title {
-	font-size: 16px;
+	
 	font-weight: 500;
 	color: #fff;
 	margin-bottom: 55px;
@@ -4833,12 +4833,12 @@ ul.list-products {
 .cart-form .shop_table .product-name {
 	color: #333333;
 	width: 35%;
-	font-size: 16px;
+	
 }
 .cart-form .shop_table .product-name a {
 	display: block;
 	font-weight: 500;
-	font-size: 16px;
+	
 }
 .cart-form .shop_table .product-name .attributes-select {
 	display: inline-block;
@@ -4881,7 +4881,7 @@ ul.list-products {
 	padding: 8px 0;
 }
 .cart-form .shop_table .actions .coupon_code {
-	font-size: 16px;
+	
 	font-weight: 500;
 	color: #333333;
 }
@@ -4916,7 +4916,7 @@ ul.list-products {
 	font-weight: 500;
 }
 .shop_table .actions .order-total .title {
-	font-size: 16px;
+	
 }
 .shop_table .actions .order-total .total-price {
 	font-size: 20px;
@@ -4964,7 +4964,7 @@ ul.list-products {
 	margin-bottom: 15px;
 }
 .header-banner .sub-title {
-	font-size: 16px;
+	
 	text-align: left;
 	margin-bottom: 35px;
 }
@@ -5286,7 +5286,7 @@ ul.list-products {
 	overflow: hidden;
 }
 .list-product-order .product-name {
-	font-size: 16px;
+	
 	color: #333333;
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -5304,7 +5304,7 @@ ul.list-products {
 	text-transform: uppercase;
 }
 .list-product-order .price {
-	font-size: 16px;
+	
 	color: #111111;
 	font-weight: 500;
 }
@@ -5316,7 +5316,7 @@ ul.list-products {
 	font-weight: 500;
 }
 .your-order .order-total .title {
-	font-size: 16px;
+	
 	text-transform: capitalize;
 }
 .your-order .order-total .total-price {
@@ -5677,7 +5677,7 @@ ul.list-products {
 }
 .tab-details-product .tab-link li a {
 	display: inline-block;
-	font-size: 16px;
+	
 	color: #bbb;
 	position: relative;
 	text-transform: uppercase;
@@ -5695,7 +5695,7 @@ ul.list-products {
 	margin-bottom: 0;
 }
 .reviews-tab .comments .reviews-title {
-	font-size: 16px;
+	
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -5884,7 +5884,7 @@ ul.list-products {
 }
 .slider-item .title-small {
 	color: #ab8e66;
-	font-size: 16px;
+	
 	letter-spacing: 0.05em;
 	font-weight: 600;
 	padding: 0;
@@ -6187,7 +6187,7 @@ ul.list-products {
 	opacity: 0.5
 }
 .post-item-share .icon {
-	font-size: 16px;
+	
 	color: #a3a4a6;
 }
 .post-item-share .box-content {
@@ -6333,7 +6333,7 @@ ul.list-products {
 }
 .stelina-blog-item.style2 .post-item-share .icon {
 	color: #aaa;
-	font-size: 16px;
+	
 	opacity: 1;
 }
 .post-top .post-item-share .box-content {
@@ -6590,7 +6590,7 @@ ul.list-products {
 	margin: 0 15px;
 	font-weight: 400;
 	color: #555;
-	font-size: 16px;
+	
 	line-height: 30px;
 }
 .stelina-tabs.style2 .tab-link li.active a {
@@ -7064,7 +7064,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	padding-right: 15px
 }
 .slider-item .description {
-	font-size: 16px;
+	
 	line-height: 22px;
 	color: #888;
 	margin-bottom: 30px;
@@ -7116,7 +7116,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 }
 .stelina-newsletter.style3 .subtitle {
 	margin-bottom: 15px;
-	font-size: 16px;
+	
 }
 .stelina-newsletter.style3 .email-newsletter {
 	width: 313px;
@@ -7246,7 +7246,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 }
 .item-banner.style30 .title sup {
 	color: #888888;
-	font-size: 16px;
+	
 	top: -0.5em;
 }
 .header-vertical .main-content::before,
@@ -7319,7 +7319,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 .form-search-width-category .chosen-container-single .chosen-single > span {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 16px;
+	
 	color: #888;
 	margin-right: 20px;
 }
@@ -7428,7 +7428,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 }
 .vertical-menu .menu-item a {
 	line-height: 41px;
-	font-size: 16px;
+	
 	color: #555555;
 	text-transform: capitalize;
 	position: relative;
@@ -7582,7 +7582,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	margin-top: 12px;
-	font-size: 16px;
+	
 }
 .product-item.style-3 .price {
 	margin-bottom: 15px;
@@ -7749,7 +7749,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	margin-bottom: 0;
 }
 .testimonial-item .info .text {
-	font-size: 16px;
+	
 	line-height: 26px;
 	margin-top: 15px;
 	font-style: italic;
@@ -7812,7 +7812,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	right: 0;
 	text-align: center;
 	z-index: 5;
-	font-size: 16px;
+	
 	color: #ffffff;
 	font-weight: normal;
 	opacity: 0;
@@ -8329,13 +8329,13 @@ body.vertical-menu-open .vertical-menu-overlay {
 	margin: 0 auto;
 }
 .pinmap-popup-main .product-name-pinmap {
-	font-size: 16px;
+	
 	color: #333333;
 	font-weight: 600;
 	margin-bottom: 0;
 }
 .pinmap-popup-main .pinmap-price {
-	font-size: 16px;
+	
 	color: #111111;
 	text-decoration: none;
 	font-weight: 600;
@@ -8496,13 +8496,13 @@ body.vertical-menu-open .vertical-menu-overlay {
 	padding-bottom: 78px;
 }
 .item-banner .description {
-	font-size: 16px;
+	
 	line-height: 22px;
 	margin-bottom: 17px;
 	display: block;
 }
 .item-banner .hot-price {
-	font-size: 16px;
+	
 	text-transform: capitalize;
 	display: block;
 }
@@ -8593,7 +8593,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	line-height: 32px;
 }
 .item-banner.style5 .code {
-	font-size: 16px;
+	
 	line-height: 22px;
 	margin-bottom: 20px;
 	display: block;
@@ -9114,7 +9114,7 @@ iframe {
 	margin-bottom: 15px;
 }
 .item-banner.style17 .banner-price {
-	font-size: 16px;
+	
 	color: #888;
 	line-height: 28px;
 	letter-spacing: -0.05em;
@@ -9416,7 +9416,7 @@ iframe {
 	font-weight: 600;
 }
 .stelina-lastestblog .post .time .date {
-	font-size: 16px;
+	
 	color: #ccc;
 	line-height: 16px
 }
@@ -9516,7 +9516,7 @@ iframe {
 		font-size: 26px;
 	}
 	.stelina-blog-item .blog-title {
-		font-size: 16px;
+		
 	}
 	.item-banner.style15 .title,
 	.item-banner.style16 .title {
@@ -10235,7 +10235,7 @@ iframe {
 }
 @media (max-width: 767px) {
 	.product-item .product-name {
-		font-size: 16px;
+		
 	}
 	.testimonial-item .image {
 		width: 100px;
@@ -10252,10 +10252,10 @@ iframe {
 		margin-bottom: 20px;
 	}
 	.product-item.style-list .product-name {
-		font-size: 16px;
+		
 	}
 	.title-form {
-		font-size: 16px;
+		
 	}
 	.item-banner.style15 .title,
 	.item-banner.style16 .title {
@@ -10425,7 +10425,7 @@ iframe {
 		font-size: 22px;
 	}
 	.blog-articles > .custom_blog_title, .comments-area > .custom_blog_title {
-		font-size: 16px;
+		
 	}
 	.widget .widgettitle {
 		font-size: 14px;
