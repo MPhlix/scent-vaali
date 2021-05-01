@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Category } from 'src/app/modules/shared/products-repository/interfaces/Category/Category';
 import { CategoriesService } from 'src/app/modules/shared/products-repository/services/categories.service';
-import { NavigationRoute } from 'src/app/modules/shared/products-repository/interfaces/NavigationRoute';
+import { NavigationRoute } from 'src/app/modules/shared/navigation/interfaces/NavigationRoute';
+import { RouteService } from 'src/app/modules/shared/navigation/services/route.service';
 
 interface CategoryRoute {
   id: 1,
@@ -21,35 +22,15 @@ export class HeaderComponent implements OnInit {
 
   name = 'akshay';
 
-  navigationRoutes: NavigationRoute[] = [
-    {
-      Id: 1,
-      DisplayName: 'Home',
-      RouteName: '/home'
-    },
-    {
-      Id: 2,
-      DisplayName: 'Shop',
-      RouteName: '/shop'
-    },
-    {
-      Id: 3,
-      DisplayName: 'About Us',
-      RouteName: '/about'
-    },
-    {
-      Id: 4,
-      DisplayName: 'Contact Us',
-      RouteName: '/contact'
-    }
-  ];
+  navigationRoutes: NavigationRoute[];
 
   categories: Category[];
 
   categoryRoutes: NavigationRoute[];
 
-  constructor(private categoriesService: CategoriesService) {
+  constructor(private categoriesService: CategoriesService, private routeService: RouteService) {
     this.categories = categoriesService.getAll();
+    this.navigationRoutes = routeService.getNavRoutes();
     this.categoryRoutes = this.mergeRouteWithCategories();
   }
 

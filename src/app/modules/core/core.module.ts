@@ -7,6 +7,7 @@ import { TabNavbarComponent } from './components/tab-navbar/tab-navbar.component
 import { SvgModule } from '../shared/svg/svg.module';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { NavigationModule } from '../shared/navigation/navigation.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     CommonModule,
     SvgModule,
-    RouterModule
+    RouterModule,
+    NavigationModule
   ],
   exports: [
     SidebarComponent,

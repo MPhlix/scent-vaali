@@ -1,6 +1,22 @@
 [
-    {
-        "Id": 1,
-        
-    }
+  {
+    "Id": 1,
+    "DisplayName": "Home",
+    "RouteName": "/home"
+  },
+  {
+    "Id": 2,
+    "DisplayName": "Shop",
+    "RouteName": "/shop"
+  },
+  {
+    "Id": 3,
+    "DisplayName": "About Us",
+    "RouteName": "/about"
+  },
+  {
+    "Id": 4,
+    "DisplayName": "Contact Us",
+    "RouteName": "/contact"
+  }
 ]
