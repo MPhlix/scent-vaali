@@ -28,6 +28,7 @@
     "jquery": "^3.5.1",
     "jquery-ui-dist": "^1.12.1",
     "ng-packagr": "^10.1.0",
+    "ngx-owl-carousel-o": "^5.0.0",
     "rxjs": "~6.6.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
