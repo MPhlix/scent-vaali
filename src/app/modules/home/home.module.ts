@@ -1,6 +1,8 @@
 //Angular modules
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Custom modules
 import { HomeComponent } from './home/home.component';
@@ -20,13 +22,26 @@ import { HighlightsComponent } from './components/highlights/highlights.componen
 import { ServicesMiniComponent } from './components/services-mini/services-mini.component';
 import { NewsComponent } from './components/news/news.component';
 import { SocialMediaFeedComponent } from './components/social-media-feed/social-media-feed.component';
+import { ProductBannerComponent } from './banner/components/product-banner/product-banner.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 ];
 
 @NgModule({
-  declarations: [HomeComponent, AboutComponent, BannerComponent, DealsComponent, PromotionsComponent, HighlightsComponent, ServicesMiniComponent, NewsComponent, SocialMediaFeedComponent],
+  declarations: [
+    HomeComponent,
+    AboutComponent,
+    BannerComponent,
+    DealsComponent,
+    PromotionsComponent,
+    HighlightsComponent,
+    ServicesMiniComponent,
+    NewsComponent,
+    SocialMediaFeedComponent,
+    ProductBannerComponent
+  ],
   imports: [
     CommonModule,
     MatCardModule,
@@ -34,7 +49,10 @@ const appRoutes: Routes = [
     MatButtonModule,
     FlexLayoutModule,
     SvgModule,
-    RouterModule.forChild(appRoutes)
+    CarouselModule,
+    RouterModule.forChild(appRoutes),
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   exports: [
     HomeComponent,
