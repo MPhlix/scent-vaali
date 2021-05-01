@@ -1,30 +1,18 @@
-- name: Assign to One Project
-  uses: srggrs/assign-one-project-github-action@1.2.1
-
-on:
-  issues:
-    types: [opened]
-  pull_request_target:
-    types: [opened, bugs]
-env:
-  MY_GITHUB_TOKEN: ${{ secrets.AUTOLINKREPOISSUEWITHPROJECT }}
-
+name: GitHub Actions Demo
+on: [push]
 jobs:
-  assign_one_project:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
-    name: Assign to One Project
     steps:
-    - name: Assign NEW issues and NEW pull requests to project 2
-      uses: srggrs/assign-one-project-github-action@1.2.1
-      if: github.event.action == 'opened'
-      with:
-        project: 'https://github.com/orgs/MPhlix/projects/2'
-
-    - name: Assign issues and pull requests with `bug` label to project 3
-      uses: srggrs/assign-one-project-github-action@1.2.1
-      if: |
-        contains(github.event.issue.labels.*.name, 'bug') ||
-        contains(github.event.pull_request.labels.*.name, 'bug')
-      with:
-        project: 'https://github.com/orgs/MPhlix/projects/2'
-        column_name: 'bugs'
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "🍏 This job's status is ${{ job.status }}."
+      
