@@ -4,9 +4,6 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-//Custom modules
-import { HomeComponent } from './home/home.component';
-
 //Third party modules
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -14,6 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SvgModule } from '../shared/svg/svg.module';
 import { Routes, RouterModule } from '@angular/router';
+
+//Custom modules
+import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { DealsComponent } from './components/deals/deals.component';
@@ -24,6 +24,7 @@ import { NewsComponent } from './components/news/news.component';
 import { SocialMediaFeedComponent } from './components/social-media-feed/social-media-feed.component';
 import { ProductBannerComponent } from './banner/components/product-banner/product-banner.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ProductComponent } from '../shared/common-components/product/product.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     ServicesMiniComponent,
     NewsComponent,
     SocialMediaFeedComponent,
-    ProductBannerComponent
+    ProductBannerComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule,
