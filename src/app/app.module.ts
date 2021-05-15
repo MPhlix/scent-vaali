@@ -17,6 +17,10 @@ const appRoutes: Routes = [
       .then(module => module.HomeModule)
   },
   {
+    path: 'shop', loadChildren: () => import('./modules/shopping/shopping.module')
+      .then(module => module.ShoppingModule)
+  },
+  {
     path: 'cart', loadChildren: () => {
       var result: any;
       if (appConfig.isCartEnabled)
